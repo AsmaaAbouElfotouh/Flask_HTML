@@ -53,7 +53,7 @@ def processing ():
 
     
 
-    prediction =y_pred
+    
     return render_template ("results.html",prediction=y_pred)
     
   
