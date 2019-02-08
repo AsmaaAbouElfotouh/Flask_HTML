@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action ="/processing" method ="Post">
+Enter the test sample :
+<br><br>
+gender:
+<input name="gender" type="text">
+<br><br>
+SeniorCitizen:
+<input name="SeniorCitizen" type="text">
+<br><br>
+Dependents:
+<input name="Dependents" type="text">
+<br><br>
+tenure :
+<input name="tenure" type="text">
+<br><br>
+Contract:
+<input name="Contract" type="text">
+<br><br>
+PaymentMethod :
+<input name="PaymentMethod" type="text">
+<br><br>
+MonthlyCharges :
+<input name="MonthlyCharges" type="text">
+<br><br>
+TotalCharges:
+<input name="TotalCharges" type="text">
+<br><br>
+
+Choose your classifier :
+<br><br>
+<select name="classifier">
+    <option value="KNN">KNN</option>
+    <option value="Logistic regression">Logistic regression</option>
+    <option value="svm">SVM</option>
+    <option value="naive bayes">naive bayes</option>
+    
+</select>
+<br><br>
+<input type="submit" value="Submit form">
+</form>
+</body>
+</html>
